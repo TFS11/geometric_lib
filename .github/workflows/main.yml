@@ -23,7 +23,7 @@ jobs:
 
     - name: Run unit tests on ${{ matrix.os }}
       run: |
-        python -m unittest circle.py
-        python -m unittest rectangle.py
-        python -m unittest triangle.py
-        python -m unittest square.py
+        python -m unittest test_circle.py
+        python -m unittest test_rectangle.py
+        python -m unittest test_triangle.py
+        python -m unittest test_square.py
