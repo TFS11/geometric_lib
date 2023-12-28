@@ -110,8 +110,19 @@ print("Периметр квадрата сторойной",a,"равен",resu
 Возвращаемое значение:
 - perimeter: значение периметры круга
 
+# Тестирование
+Unit тесты находятся в файлах *ИмяФигуры*_test.py
+
+Запустить тесты можно из дериктории проекта коммандой:
+```
+python.exe -m unittest ИмяФигуры_test.py
+```
+
 # История изменений
 
+## added tests
+>Date:   Thu Dec 28 15:52:29 2023 +0300, commit[72259f7d0700369775729865422b340d2af53d7f](https://github.com/TFS11/geometric_lib/commit/72259f7d0700369775729865422b340d2af53d7f)
+- Добавлены тесты к фунциям
 ## fixed mistake for rectangle.py
 > Date:   Sat Sep 9 13:56:07 2023 +0300, commit [7581ad67088a0aa9c18ccadf8017f82ef08df7b6](https://github.com/TFS11/geometric_lib/commit/7581ad67088a0aa9c18ccadf8017f82ef08df7b6)
 - Исправлена ошибка в файле rectangle.py
